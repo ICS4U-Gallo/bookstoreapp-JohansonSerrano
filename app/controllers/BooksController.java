@@ -4,7 +4,7 @@ import play.mvc.Result;
 import play.mvc.Results;
 
 /**
- *
+ * Created by johanson on 4/20/2017.
  */
 
 public class BooksController extends Controller{
@@ -25,6 +25,25 @@ public class BooksController extends Controller{
 
     public Result save(){
         return TODO;
+    }
+
+    public Result edit(Integer id){
+        return TODO;
+    }
+
+    public Result update(){
+        return TODO;
+    }
+
+    public Result destroy(Integer id){
+        return TODO;
+    }
+
+    // for book details
+
+    public Result show(Integer id){
+        return TODO;
+
     }
 
 }
