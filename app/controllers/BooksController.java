@@ -11,7 +11,7 @@ public class BooksController extends Controller{
 
     // for all books
 
-    public Results index(){
+    public Result index(){
         return TODO;
     }
 
