@@ -1,6 +1,7 @@
 package models;
 
-import scala.Int;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by johanson on 4/21/2018.
@@ -24,8 +25,8 @@ public class Book {
 
     static {
         books = new HashSet<>();
-        books.add(new Book(id: 1, title: "C++", price: 20, author: "ABC"));
-        books.add(new Book(id: 2, title: "Java", price: 30, author: "XYZ"));
+        books.add(new Book(1,"C++",20,"ABC"));
+        books.add(new Book(2,"Java",30,"XYZ"));
     }
 
 
